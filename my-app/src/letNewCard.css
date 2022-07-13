@@ -1,0 +1,47 @@
+.modalWindow {
+	width: 600px;
+	height: 380px;
+	background-color: rgb(241, 241, 241);
+	padding: 30px 15px;
+	border: 1px solid rgb(0, 0, 0);
+	position: absolute;
+	top: 200px;
+	box-shadow: 0px 0px 10px 1px rgb(182, 183, 184);
+}
+
+.modalWindow_input {
+	width: 100%;
+	height: 30px;
+	caret-color: black;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+.modalWindow_textarea {
+	width: 100%;
+	height: 200px;
+	margin-top: 20px;
+	resize: none;
+	caret-color: black;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+.modalWindow_btn_flex {
+	width: 100%;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 30px;
+}
+
+.modalWindow_btn_cancel, .modalWindow_btn_save {
+	width: 150px;
+	height: 100%;
+	background-color: rgb(193, 225, 253);
+	border: 2px solid rgb(95, 180, 255);
+}
+
+.modalWindow_btn_save {
+	margin-left: 20px;
+}
+

@@ -1,0 +1,77 @@
+.cardsBlock {
+	width: 800px;
+	height: 800px;
+	background-color: rgb(241, 241, 241);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 60px 20px;
+	margin: 30px auto 0 auto;
+	border: 1px solid black;
+}
+
+.cards_flex {
+	width: 700px;
+	height: 600px;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	overflow: scroll;
+}
+
+.title {
+	font-size: 30px;
+}
+
+.btn_add {
+	width: 150px;
+	height: 50px;
+	align-self: flex-end;
+	background-color: rgb(193, 225, 253);
+	font-size: 15px;
+	border: 2px solid rgb(95, 180, 255);
+}
+
+.btn_add_link {
+	margin-top: 60px;
+	align-self: flex-end;
+}
+
+.card {
+	width: 180px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.cards_title {
+	width: 100%;
+	height: 20px;
+	font-size: 20px;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.cards_content {
+	width: 180px;
+	height: 102px;
+	background-color: white;
+	border: 2px solid black;
+}
+
+.cards_btn {
+	width: 100%;
+	background-color: rgb(193, 225, 253);
+	border-radius: 5px;
+	border: 1px solid rgb(95, 180, 255);
+	margin-top: 10px;
+}
+
+.cards_btn_link {
+	width: 100%;
+}
